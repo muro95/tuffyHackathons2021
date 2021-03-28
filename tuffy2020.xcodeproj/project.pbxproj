@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		153EBB9CE3E81ACEB775FAFE /* Pods_tuffy2020Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA09542A17B4C8DA0A4A3F3 /* Pods_tuffy2020Tests.framework */; };
+		1BFBC2B3383BB11D405835BA /* Pods_tuffy2020_tuffy2020UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ACDBB7459DFB613713CEA2 /* Pods_tuffy2020_tuffy2020UITests.framework */; };
+		2024C65D08C53470598351D8 /* Pods_tuffy2020.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E3D1513510FF282BEFAABD6 /* Pods_tuffy2020.framework */; };
+		E928EE842610191A00BAB3C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E928EE832610191A00BAB3C1 /* AppDelegate.swift */; };
+		E928EE862610191A00BAB3C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E928EE852610191A00BAB3C1 /* SceneDelegate.swift */; };
+		E928EE882610191A00BAB3C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E928EE872610191A00BAB3C1 /* ContentView.swift */; };
+		E928EE8A2610192100BAB3C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E928EE892610192100BAB3C1 /* Assets.xcassets */; };
+		E928EE8D2610192100BAB3C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E928EE8C2610192100BAB3C1 /* Preview Assets.xcassets */; };
+		E928EE902610192100BAB3C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E928EE8E2610192100BAB3C1 /* LaunchScreen.storyboard */; };
+		E928EE9B2610192100BAB3C1 /* tuffy2020Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E928EE9A2610192100BAB3C1 /* tuffy2020Tests.swift */; };
+		E928EEA62610192100BAB3C1 /* tuffy2020UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E928EEA52610192100BAB3C1 /* tuffy2020UITests.swift */; };
+		E928EEB42610314100BAB3C1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E928EEB32610314000BAB3C1 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E928EE972610192100BAB3C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E928EE782610191900BAB3C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E928EE7F2610191A00BAB3C1;
+			remoteInfo = tuffy2020;
+		};
+		E928EEA22610192100BAB3C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E928EE782610191900BAB3C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E928EE7F2610191A00BAB3C1;
+			remoteInfo = tuffy2020;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41DCA063DB81B432C70BD3A6 /* Pods-tuffy2020.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tuffy2020.debug.xcconfig"; path = "Target Support Files/Pods-tuffy2020/Pods-tuffy2020.debug.xcconfig"; sourceTree = "<group>"; };
+		43ACDBB7459DFB613713CEA2 /* Pods_tuffy2020_tuffy2020UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tuffy2020_tuffy2020UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E3D1513510FF282BEFAABD6 /* Pods_tuffy2020.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tuffy2020.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CBFC18FA5D5944AA5E9EED7 /* Pods-tuffy2020Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tuffy2020Tests.debug.xcconfig"; path = "Target Support Files/Pods-tuffy2020Tests/Pods-tuffy2020Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9DA09542A17B4C8DA0A4A3F3 /* Pods_tuffy2020Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tuffy2020Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A06BCC9CDB003D8D2D3C10C6 /* Pods-tuffy2020-tuffy2020UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tuffy2020-tuffy2020UITests.debug.xcconfig"; path = "Target Support Files/Pods-tuffy2020-tuffy2020UITests/Pods-tuffy2020-tuffy2020UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3A080D00E4F1A689EEB9C2D /* Pods-tuffy2020.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tuffy2020.release.xcconfig"; path = "Target Support Files/Pods-tuffy2020/Pods-tuffy2020.release.xcconfig"; sourceTree = "<group>"; };
+		E928EE802610191A00BAB3C1 /* tuffy2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tuffy2020.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E928EE832610191A00BAB3C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E928EE852610191A00BAB3C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E928EE872610191A00BAB3C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E928EE892610192100BAB3C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E928EE8C2610192100BAB3C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E928EE8F2610192100BAB3C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E928EE912610192100BAB3C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E928EE962610192100BAB3C1 /* tuffy2020Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tuffy2020Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E928EE9A2610192100BAB3C1 /* tuffy2020Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tuffy2020Tests.swift; sourceTree = "<group>"; };
+		E928EE9C2610192100BAB3C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E928EEA12610192100BAB3C1 /* tuffy2020UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tuffy2020UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E928EEA52610192100BAB3C1 /* tuffy2020UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tuffy2020UITests.swift; sourceTree = "<group>"; };
+		E928EEA72610192100BAB3C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E928EEB32610314000BAB3C1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EDDC326B3640E2ACCDF2F993 /* Pods-tuffy2020Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tuffy2020Tests.release.xcconfig"; path = "Target Support Files/Pods-tuffy2020Tests/Pods-tuffy2020Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FAE428DB0127D9D6968C2658 /* Pods-tuffy2020-tuffy2020UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tuffy2020-tuffy2020UITests.release.xcconfig"; path = "Target Support Files/Pods-tuffy2020-tuffy2020UITests/Pods-tuffy2020-tuffy2020UITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E928EE7D2610191A00BAB3C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2024C65D08C53470598351D8 /* Pods_tuffy2020.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E928EE932610192100BAB3C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				153EBB9CE3E81ACEB775FAFE /* Pods_tuffy2020Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E928EE9E2610192100BAB3C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BFBC2B3383BB11D405835BA /* Pods_tuffy2020_tuffy2020UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15233CE009DB60EC3EDC797B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E3D1513510FF282BEFAABD6 /* Pods_tuffy2020.framework */,
+				43ACDBB7459DFB613713CEA2 /* Pods_tuffy2020_tuffy2020UITests.framework */,
+				9DA09542A17B4C8DA0A4A3F3 /* Pods_tuffy2020Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		446AAC1DEA21C077AA50E738 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41DCA063DB81B432C70BD3A6 /* Pods-tuffy2020.debug.xcconfig */,
+				E3A080D00E4F1A689EEB9C2D /* Pods-tuffy2020.release.xcconfig */,
+				A06BCC9CDB003D8D2D3C10C6 /* Pods-tuffy2020-tuffy2020UITests.debug.xcconfig */,
+				FAE428DB0127D9D6968C2658 /* Pods-tuffy2020-tuffy2020UITests.release.xcconfig */,
+				9CBFC18FA5D5944AA5E9EED7 /* Pods-tuffy2020Tests.debug.xcconfig */,
+				EDDC326B3640E2ACCDF2F993 /* Pods-tuffy2020Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E928EE772610191900BAB3C1 = {
+			isa = PBXGroup;
+			children = (
+				E928EE822610191A00BAB3C1 /* tuffy2020 */,
+				E928EE992610192100BAB3C1 /* tuffy2020Tests */,
+				E928EEA42610192100BAB3C1 /* tuffy2020UITests */,
+				E928EE812610191A00BAB3C1 /* Products */,
+				446AAC1DEA21C077AA50E738 /* Pods */,
+				15233CE009DB60EC3EDC797B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E928EE812610191A00BAB3C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E928EE802610191A00BAB3C1 /* tuffy2020.app */,
+				E928EE962610192100BAB3C1 /* tuffy2020Tests.xctest */,
+				E928EEA12610192100BAB3C1 /* tuffy2020UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E928EE822610191A00BAB3C1 /* tuffy2020 */ = {
+			isa = PBXGroup;
+			children = (
+				E928EEB32610314000BAB3C1 /* GoogleService-Info.plist */,
+				E928EE832610191A00BAB3C1 /* AppDelegate.swift */,
+				E928EE852610191A00BAB3C1 /* SceneDelegate.swift */,
+				E928EE872610191A00BAB3C1 /* ContentView.swift */,
+				E928EE892610192100BAB3C1 /* Assets.xcassets */,
+				E928EE8E2610192100BAB3C1 /* LaunchScreen.storyboard */,
+				E928EE912610192100BAB3C1 /* Info.plist */,
+				E928EE8B2610192100BAB3C1 /* Preview Content */,
+			);
+			path = tuffy2020;
+			sourceTree = "<group>";
+		};
+		E928EE8B2610192100BAB3C1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E928EE8C2610192100BAB3C1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E928EE992610192100BAB3C1 /* tuffy2020Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E928EE9A2610192100BAB3C1 /* tuffy2020Tests.swift */,
+				E928EE9C2610192100BAB3C1 /* Info.plist */,
+			);
+			path = tuffy2020Tests;
+			sourceTree = "<group>";
+		};
+		E928EEA42610192100BAB3C1 /* tuffy2020UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E928EEA52610192100BAB3C1 /* tuffy2020UITests.swift */,
+				E928EEA72610192100BAB3C1 /* Info.plist */,
+			);
+			path = tuffy2020UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E928EE7F2610191A00BAB3C1 /* tuffy2020 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E928EEAA2610192100BAB3C1 /* Build configuration list for PBXNativeTarget "tuffy2020" */;
+			buildPhases = (
+				6A6C3DB495ECA2EAD75D9ABD /* [CP] Check Pods Manifest.lock */,
+				E928EE7C2610191A00BAB3C1 /* Sources */,
+				E928EE7D2610191A00BAB3C1 /* Frameworks */,
+				E928EE7E2610191A00BAB3C1 /* Resources */,
+				7B56E632CADEA99FBB5712FC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tuffy2020;
+			productName = tuffy2020;
+			productReference = E928EE802610191A00BAB3C1 /* tuffy2020.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E928EE952610192100BAB3C1 /* tuffy2020Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E928EEAD2610192100BAB3C1 /* Build configuration list for PBXNativeTarget "tuffy2020Tests" */;
+			buildPhases = (
+				5D482F1906A29A02585EFE89 /* [CP] Check Pods Manifest.lock */,
+				E928EE922610192100BAB3C1 /* Sources */,
+				E928EE932610192100BAB3C1 /* Frameworks */,
+				E928EE942610192100BAB3C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E928EE982610192100BAB3C1 /* PBXTargetDependency */,
+			);
+			name = tuffy2020Tests;
+			productName = tuffy2020Tests;
+			productReference = E928EE962610192100BAB3C1 /* tuffy2020Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E928EEA02610192100BAB3C1 /* tuffy2020UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E928EEB02610192100BAB3C1 /* Build configuration list for PBXNativeTarget "tuffy2020UITests" */;
+			buildPhases = (
+				5235BAA621A25B925A15ACDB /* [CP] Check Pods Manifest.lock */,
+				E928EE9D2610192100BAB3C1 /* Sources */,
+				E928EE9E2610192100BAB3C1 /* Frameworks */,
+				E928EE9F2610192100BAB3C1 /* Resources */,
+				CA933A1BC693DC3D7BD51D56 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E928EEA32610192100BAB3C1 /* PBXTargetDependency */,
+			);
+			name = tuffy2020UITests;
+			productName = tuffy2020UITests;
+			productReference = E928EEA12610192100BAB3C1 /* tuffy2020UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E928EE782610191900BAB3C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Alex Truong";
+				TargetAttributes = {
+					E928EE7F2610191A00BAB3C1 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					E928EE952610192100BAB3C1 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = E928EE7F2610191A00BAB3C1;
+					};
+					E928EEA02610192100BAB3C1 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = E928EE7F2610191A00BAB3C1;
+					};
+				};
+			};
+			buildConfigurationList = E928EE7B2610191900BAB3C1 /* Build configuration list for PBXProject "tuffy2020" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E928EE772610191900BAB3C1;
+			productRefGroup = E928EE812610191A00BAB3C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E928EE7F2610191A00BAB3C1 /* tuffy2020 */,
+				E928EE952610192100BAB3C1 /* tuffy2020Tests */,
+				E928EEA02610192100BAB3C1 /* tuffy2020UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E928EE7E2610191A00BAB3C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E928EEB42610314100BAB3C1 /* GoogleService-Info.plist in Resources */,
+				E928EE902610192100BAB3C1 /* LaunchScreen.storyboard in Resources */,
+				E928EE8D2610192100BAB3C1 /* Preview Assets.xcassets in Resources */,
+				E928EE8A2610192100BAB3C1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E928EE942610192100BAB3C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E928EE9F2610192100BAB3C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5235BAA621A25B925A15ACDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tuffy2020-tuffy2020UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D482F1906A29A02585EFE89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tuffy2020Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A6C3DB495ECA2EAD75D9ABD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tuffy2020-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B56E632CADEA99FBB5712FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tuffy2020/Pods-tuffy2020-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tuffy2020/Pods-tuffy2020-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tuffy2020/Pods-tuffy2020-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA933A1BC693DC3D7BD51D56 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tuffy2020-tuffy2020UITests/Pods-tuffy2020-tuffy2020UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tuffy2020-tuffy2020UITests/Pods-tuffy2020-tuffy2020UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tuffy2020-tuffy2020UITests/Pods-tuffy2020-tuffy2020UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E928EE7C2610191A00BAB3C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E928EE842610191A00BAB3C1 /* AppDelegate.swift in Sources */,
+				E928EE862610191A00BAB3C1 /* SceneDelegate.swift in Sources */,
+				E928EE882610191A00BAB3C1 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E928EE922610192100BAB3C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E928EE9B2610192100BAB3C1 /* tuffy2020Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E928EE9D2610192100BAB3C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E928EEA62610192100BAB3C1 /* tuffy2020UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E928EE982610192100BAB3C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E928EE7F2610191A00BAB3C1 /* tuffy2020 */;
+			targetProxy = E928EE972610192100BAB3C1 /* PBXContainerItemProxy */;
+		};
+		E928EEA32610192100BAB3C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E928EE7F2610191A00BAB3C1 /* tuffy2020 */;
+			targetProxy = E928EEA22610192100BAB3C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E928EE8E2610192100BAB3C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E928EE8F2610192100BAB3C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E928EEA82610192100BAB3C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E928EEA92610192100BAB3C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E928EEAB2610192100BAB3C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41DCA063DB81B432C70BD3A6 /* Pods-tuffy2020.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"tuffy2020/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = tuffy2020/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexcode.tuffy2020;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E928EEAC2610192100BAB3C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3A080D00E4F1A689EEB9C2D /* Pods-tuffy2020.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"tuffy2020/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = tuffy2020/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexcode.tuffy2020;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E928EEAE2610192100BAB3C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CBFC18FA5D5944AA5E9EED7 /* Pods-tuffy2020Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tuffy2020Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexcode.tuffy2020Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tuffy2020.app/tuffy2020";
+			};
+			name = Debug;
+		};
+		E928EEAF2610192100BAB3C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDDC326B3640E2ACCDF2F993 /* Pods-tuffy2020Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tuffy2020Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexcode.tuffy2020Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tuffy2020.app/tuffy2020";
+			};
+			name = Release;
+		};
+		E928EEB12610192100BAB3C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A06BCC9CDB003D8D2D3C10C6 /* Pods-tuffy2020-tuffy2020UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tuffy2020UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexcode.tuffy2020UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tuffy2020;
+			};
+			name = Debug;
+		};
+		E928EEB22610192100BAB3C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAE428DB0127D9D6968C2658 /* Pods-tuffy2020-tuffy2020UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tuffy2020UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexcode.tuffy2020UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tuffy2020;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E928EE7B2610191900BAB3C1 /* Build configuration list for PBXProject "tuffy2020" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E928EEA82610192100BAB3C1 /* Debug */,
+				E928EEA92610192100BAB3C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E928EEAA2610192100BAB3C1 /* Build configuration list for PBXNativeTarget "tuffy2020" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E928EEAB2610192100BAB3C1 /* Debug */,
+				E928EEAC2610192100BAB3C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E928EEAD2610192100BAB3C1 /* Build configuration list for PBXNativeTarget "tuffy2020Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E928EEAE2610192100BAB3C1 /* Debug */,
+				E928EEAF2610192100BAB3C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E928EEB02610192100BAB3C1 /* Build configuration list for PBXNativeTarget "tuffy2020UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E928EEB12610192100BAB3C1 /* Debug */,
+				E928EEB22610192100BAB3C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E928EE782610191900BAB3C1 /* Project object */;
+}

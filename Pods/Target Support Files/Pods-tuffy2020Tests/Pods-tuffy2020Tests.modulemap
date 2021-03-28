@@ -1,0 +1,6 @@
+framework module Pods_tuffy2020Tests {
+  umbrella header "Pods-tuffy2020Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
